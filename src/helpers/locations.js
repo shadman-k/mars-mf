@@ -16,8 +16,16 @@ const locations = [
   { x: 230, y: 230 },
   { x: 135, y: 270 },
   { x: 40, y: 230 },
-  { x: 0, y: 135 },
+  { x: 0, y: 135 }, // dummy 1
   { x: 40, y: 40 },
+  { x: 220, y: -60 }, // dummy 3 - outer circle begins
+  { x: 330, y: 50 },
+  { x: 330, y: 220 }, // dummy 5
+  { x: 220, y: 330 },
+  { x: 50, y: 330 }, // dummy 7
+  { x: -60, y: 220 },
+  { x: -60, y: 50 },
+  { x: 50, y: -60}
 ];
 
 export default locations;

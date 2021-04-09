@@ -272,6 +272,116 @@ export default [
           },
         ],
       },
+      {
+        "consumingApplicationID": "home",
+        "applicationID": "search",
+        "name": "dummy1",
+        "usedIn": [
+          {
+            "file": "src/HomeContent.jsx",
+            "url": "http://github.com/src/HomeContent.jsx"
+          }
+        ]
+      },
+      {
+        "consumingApplicationID": "home",
+        "applicationID": "home",
+        "name": "dummy2",
+        "usedIn": [
+          {
+            "file": "src/HomeContent.jsx",
+            "url": "http://github.com/src/HomeContent.jsx"
+          }
+        ]
+      },
+      {
+        "consumingApplicationID": "home",
+        "applicationID": "home",
+        "name": "dummy3",
+        "usedIn": [
+          {
+            "file": "src/HomeContent.jsx",
+            "url": "http://github.com/src/HomeContent.jsx"
+          }
+        ]
+      },
+      {
+        "consumingApplicationID": "home",
+        "applicationID": "home",
+        "name": "dummy4",
+        "usedIn": [
+          {
+            "file": "src/HomeContent.jsx",
+            "url": "http://github.com/src/HomeContent.jsx"
+          }
+        ]
+      },
+      {
+        "consumingApplicationID": "home",
+        "applicationID": "checkout",
+        "name": "dummy5",
+        "usedIn": [
+          {
+            "file": "src/HomeContent.jsx",
+            "url": "http://github.com/src/HomeContent.jsx"
+          }
+        ]
+      },
+      {
+        "consumingApplicationID": "home",
+        "applicationID": "checkout",
+        "name": "dummy6",
+        "usedIn": [
+          {
+            "file": "src/HomeContent.jsx",
+            "url": "http://github.com/src/HomeContent.jsx"
+          }
+        ]
+      },
+      {
+        "consumingApplicationID": "home",
+        "applicationID": "search",
+        "name": "dummy7",
+        "usedIn": [
+          {
+            "file": "src/HomeContent.jsx",
+            "url": "http://github.com/src/HomeContent.jsx"
+          }
+        ]
+      },
+      {
+        "consumingApplicationID": "home",
+        "applicationID": "search",
+        "name": "dummy8",
+        "usedIn": [
+          {
+            "file": "src/HomeContent.jsx",
+            "url": "http://github.com/src/HomeContent.jsx"
+          }
+        ]
+      },
+      {
+        "consumingApplicationID": "home",
+        "applicationID": "search",
+        "name": "dummy9",
+        "usedIn": [
+          {
+            "file": "src/HomeContent.jsx",
+            "url": "http://github.com/src/HomeContent.jsx"
+          }
+        ]
+      },
+      {
+        "consumingApplicationID": "home",
+        "applicationID": "checkout",
+        "name": "dummy10",
+        "usedIn": [
+          {
+            "file": "src/HomeContent.jsx",
+            "url": "http://github.com/src/HomeContent.jsx"
+          }
+        ]
+      }
     ],
     modules: [
       {

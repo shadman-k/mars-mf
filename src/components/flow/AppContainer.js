@@ -4,7 +4,7 @@ import AppNode from './AppNode';
 import ModuleNode from './ModuleNode';
 
 const onLoad = (reactFlowInstance) => {
-  reactFlowInstance.fitView({ padding: 0.1 });
+  reactFlowInstance.fitView({ padding: 0.5 });
 };
 
 const nodeTypes = {

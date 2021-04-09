@@ -20,7 +20,7 @@ const FlowContainer = () => {
   const { apps } = useContext(AppsContext);
 
   const onLoad = useCallback((instance) => {
-    instance.fitView();
+    instance.fitView({ padding: 0.05 });
   }, []);
 
   if (apps.length)
