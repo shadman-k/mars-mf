@@ -9,6 +9,7 @@ import Typography from '@material-ui/core/Typography';
 import Search from './Search';
 import DropMenu from './DropMenu';
 import AppsContext from '../../contexts/AppsContext';
+import LogInButton from './LogInButton';
 
 const NavBar = () => {
   const { apps, setApps } = useContext(AppsContext);
@@ -32,6 +33,7 @@ const NavBar = () => {
             </Link>
           </Typography>
           {/* <Search /> */}
+          <LogInButton />
         </Toolbar>
       </AppBar>
     </div>
