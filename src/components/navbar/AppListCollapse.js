@@ -11,7 +11,7 @@ import DeviceHubIcon from '@material-ui/icons/DeviceHub';
 import EcoRoundedIcon from '@material-ui/icons/EcoRounded';
 
 const AppListCollapse = ({ apps, close }) => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   const handleClick = () => {
     setOpen(!open);

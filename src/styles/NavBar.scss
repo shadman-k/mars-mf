@@ -81,3 +81,11 @@ $accent-yellow: #e0bf2b;
   padding-top: 2px;
   color: $font-standard;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f5f5f5;
+}

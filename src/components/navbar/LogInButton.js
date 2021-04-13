@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
 import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
+import LogInForm from './LogInForm'
 
 const useStyles = makeStyles((theme) => ({
   modal: {
@@ -11,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'center',
   },
   paper: {
-    backgroundColor: theme.palette.background.paper,
+    // backgroundColor: theme.palette.background.paper,
     boxShadow: theme.shadows[5],
     padding: theme.spacing(2, 4, 3),
     outline: 'none',
@@ -66,11 +67,15 @@ const LogInButton = () => {
         BackdropProps={{
           timeout: 500,
         }}
+        elevation={3}
       >
         <Fade in={open}>
-          <div className={classes.paper}>
+          {/* <div className={classes.paper}>
             <h2 id="transition-modal-title">Transition modal</h2>
             <p id="transition-modal-description">react-transition-group animates me.</p>
+          </div> */}
+          <div className={classes.paper}>
+            <LogInForm />
           </div>
         </Fade>
       </Modal>

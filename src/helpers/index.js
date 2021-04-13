@@ -64,7 +64,7 @@ export const convertConsumedModules = (mods, colorMap) =>
 // Returns an object. Keys are application ids and values are color strings
 export const createColorMap = (apps, colors) =>
   apps.reduce((colorMap, app, i) => {
-    let color = i === 0 ? 0 : i % 8;
+    let color = i % 8;
     colorMap[app.id] = colors[color];
     return colorMap;
   }, {});
